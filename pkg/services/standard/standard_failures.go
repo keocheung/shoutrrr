@@ -2,7 +2,7 @@ package standard
 
 import (
 	"fmt"
-	f "github.com/containrrr/shoutrrr/internal/failures"
+	f "github.com/keocheung/shoutrrr/internal/failures"
 )
 
 const (

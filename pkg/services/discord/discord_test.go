@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	. "github.com/containrrr/shoutrrr/pkg/services/discord"
-	"github.com/containrrr/shoutrrr/pkg/types"
 	"github.com/jarcoal/httpmock"
+	"github.com/keocheung/shoutrrr/internal/testutils"
+	. "github.com/keocheung/shoutrrr/pkg/services/discord"
+	"github.com/keocheung/shoutrrr/pkg/types"
 
 	"net/url"
 	"os"

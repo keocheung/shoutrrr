@@ -3,8 +3,8 @@ package testutils
 import (
 	"net/url"
 
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/keocheung/shoutrrr/pkg/format"
+	"github.com/keocheung/shoutrrr/pkg/types"
 
 	Ω "github.com/onsi/gomega"
 )

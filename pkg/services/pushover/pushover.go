@@ -2,14 +2,14 @@ package pushover
 
 import (
 	"fmt"
-	"github.com/containrrr/shoutrrr/pkg/format"
+	"github.com/keocheung/shoutrrr/pkg/format"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/keocheung/shoutrrr/pkg/services/standard"
+	"github.com/keocheung/shoutrrr/pkg/types"
 )
 
 const (

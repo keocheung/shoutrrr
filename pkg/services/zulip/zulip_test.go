@@ -1,9 +1,9 @@
 package zulip_test
 
 import (
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	"github.com/containrrr/shoutrrr/pkg/services/zulip"
-	. "github.com/containrrr/shoutrrr/pkg/services/zulip"
+	"github.com/keocheung/shoutrrr/internal/testutils"
+	"github.com/keocheung/shoutrrr/pkg/services/zulip"
+	. "github.com/keocheung/shoutrrr/pkg/services/zulip"
 
 	"net/url"
 	"os"

@@ -5,12 +5,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/keocheung/shoutrrr/pkg/format"
+	"github.com/keocheung/shoutrrr/pkg/services/standard"
+	"github.com/keocheung/shoutrrr/pkg/types"
 )
 
-//Config object holding all information
+// Config object holding all information
 type Config struct {
 	standard.EnumlessConfig
 	UserName string `url:"user" optional:"" desc:"Override webhook user"`
@@ -77,7 +77,7 @@ func (config *Config) setURL(resolver types.ConfigQueryResolver, serviceURL *url
 	return nil
 }
 
-//ErrorMessage for error events within the mattermost service
+// ErrorMessage for error events within the mattermost service
 type ErrorMessage string
 
 const (

@@ -3,10 +3,10 @@ package generate
 import (
 	"errors"
 	"fmt"
-	"github.com/containrrr/shoutrrr/pkg/generators"
-	"github.com/containrrr/shoutrrr/pkg/router"
-	"github.com/containrrr/shoutrrr/pkg/types"
 	"github.com/fatih/color"
+	"github.com/keocheung/shoutrrr/pkg/generators"
+	"github.com/keocheung/shoutrrr/pkg/router"
+	"github.com/keocheung/shoutrrr/pkg/types"
 	"github.com/spf13/cobra"
 	"os"
 	"strings"

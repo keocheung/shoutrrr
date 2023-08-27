@@ -6,9 +6,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	. "github.com/containrrr/shoutrrr/pkg/services/slack"
 	"github.com/jarcoal/httpmock"
+	"github.com/keocheung/shoutrrr/internal/testutils"
+	. "github.com/keocheung/shoutrrr/pkg/services/slack"
 
 	"net/url"
 	"os"
